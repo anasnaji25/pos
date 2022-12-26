@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pos/src/const/app_colors.dart';
 import 'package:pos/src/const/app_fonts.dart';
+import 'package:pos/src/views/home_view/home_navigation_bar.dart';
 import 'package:pos/src/views/home_view/home_view.dart';
 
 class LoginView extends StatefulWidget {
@@ -100,7 +101,7 @@ class _LoginViewState extends State<LoginView> {
             padding: const EdgeInsets.only(left: 20, right: 20),
             child: InkWell(
               onTap: (){
-                Get.offAll(()=> HomeView());
+                Get.offAll(()=> HomePageWithNavigation());
               },
               child: Container(
                 height: 55,

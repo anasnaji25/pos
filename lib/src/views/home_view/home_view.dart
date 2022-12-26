@@ -81,6 +81,7 @@ class _HomeViewState extends State<HomeView> {
                       colors: [
                     Color.fromARGB(255, 103, 66, 206),
                     Color(0xFF4000F6),
+                    
                   ])),
             ),
           ),
